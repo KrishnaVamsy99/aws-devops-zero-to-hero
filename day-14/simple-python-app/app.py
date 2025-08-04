@@ -8,4 +8,4 @@ def hello():
 
 if __name__ == '__main__':
     app.run()
-# added a comment for to check code build and code pipeline and code deploy
+# added a comment for to check code build and code pipeline and code deploy to check in aws
