@@ -2,7 +2,8 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
+docker pull gvkvamsy99/simple-python-flask-app
 
 # Run the Docker image as a container
-echo
+docker run -d -p 6000:6000 gvkvamsy99/simple-python-flask-app
+# commented
